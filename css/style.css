@@ -1,0 +1,112 @@
+body {
+	background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+                  url("../img/background.jpg");
+
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+main {
+    padding-bottom: 10%;
+    margin: 7%;
+    padding-top: 10%;
+}
+h1 {
+	color: #E80D02;
+}
+
+.no-padding-margin {
+	margin: 0;
+	padding: 0;
+}
+
+/* For the Header */
+
+.style-header {
+	background-color: #FFADA3;
+	position: fixed;
+    top: 0;
+    width: 100%
+}
+.style-nav {
+	display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*.navbar {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	line-height: 80px;
+}
+
+.navbar>li>a {
+	text-decoration: none;
+	margin-right: 25px;
+	margin-left: 25px;
+	color: white;
+}
+
+.style-nav>div>.navbar>li>a:hover {
+	transition: color 0.5s ease;
+	color: #B8A88F;
+}
+.style-nav>div>.navbar>li:hover {
+	transition: background-color 0.5s ease;
+	background-color: #291300;
+
+}*/
+/* For the Main */
+.base-card {
+	padding: 20px;
+	margin: 20px;
+	box-shadow: 25px 22px 7px -15px rgba(0,0,0,0.29);
+	background-color: white;
+	border: 2px solid;
+}
+
+.border-curve {
+	border-radius: 8px;
+}
+
+.flex-base-main {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 90%;
+	align-items: center;
+}
+.flex-row-alternate {
+	flex-direction: row-reverse;
+}
+.image-container>img {
+	max-width: 100%;
+	height: auto;
+	margin-top: 5px; 
+}
+/* For the Footer */
+
+footer>div>.navbar>li {
+	padding: 10px;
+}
+/*
+.style-footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	background-color: #E89267;
+}
+
+.style-footer>li {
+	text-decoration: none;
+	margin-right: 25px;
+	margin-left: 25px;
+	color: black;
+}
+*/

@@ -1,18 +1,19 @@
-body {
-	background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
-                  url("../img/background.jpg");
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: fixed;
+header {
+	height: 9.5vh;
 }
 
 main {
     padding-bottom: 10%;
     margin: 7%;
     padding-top: 10%;
+    height: 80vh;
+}
+
+footer {
+	height: 10vh;
 }
 h1 {
-	color: #E80D02;
+	color: #693D37;
 }
 
 .no-padding-margin {
@@ -23,7 +24,7 @@ h1 {
 /* For the Header */
 
 .style-header {
-	background-color: #FFADA3;
+	background-color: #E8C9A1;
 	position: fixed;
     top: 0;
     width: 100%
@@ -35,7 +36,10 @@ h1 {
     padding-right: 15px;
 }
 
-
+#tfheader {
+      display: flex;
+    align-items: center;
+}
 
 /* For the Main */
 .base-card {

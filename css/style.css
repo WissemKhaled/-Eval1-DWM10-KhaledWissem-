@@ -37,7 +37,7 @@ h1 {
 }
 
 #tfheader {
-      display: flex;
+    display: flex;
     align-items: center;
 }
 
@@ -56,19 +56,16 @@ h1 {
 
 .flex-base-main {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	width: 90%;
-	align-items: center;
+    flex-direction: column;
+    align-items: center;
 }
-.flex-row-alternate {
-	flex-direction: row-reverse;
-}
+
 .image-container>img {
 	max-width: 100%;
 	height: auto;
 	margin-top: 5px; 
 }
+
 /* For the Footer */
 
 footer>div>.navbar>li {
